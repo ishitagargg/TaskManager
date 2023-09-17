@@ -32,7 +32,7 @@ form.addEventListener('submit', (event) => {
   event.preventDefault();
   const email = event.target.email.value;
   if (validateEmail(email)) {
-    window.location.href = '/main.html';
+    window.location.href = './main.html';
   } else {
     alert('Invalid email address.');
   }
